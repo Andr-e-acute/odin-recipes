@@ -4,47 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>odin Recipse Project</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>odin Recipe Project</title>
   </head>
   <body>
-    <h1>Air Freyer Recipse</h1>
-    <ul>
-      <li>
-        <a href="recipes/bagelsTwoIngredient.html">
-          <figure>
+    <header>
+      <h1>Air Freyer Recipe</h1>
+      <p>a project for Odin foundation</p>
+      <p>now with  a little CSS</p>
+    </header>
+    <main>
+     <h2>Recommend recipes</h2>
+    <div class="recipe-overview">
+        
+        <a href="recipes/bagelsTwoIngredient.html" class="recipe-card">
+          <h3>Bagels</h3>
             <img
               src="./img/bagel.jpeg"
-              alt="four Bagels on a plate"
-              width="300"
-            />
-            <figcaption>Two-Ingredient Air Fryer Bagels</figcaption>
-          </figure>
+              alt="four Bagels on a plate"/>
+            <p>Two-Ingredient Air Fryer Bagels</p>
         </a>
-      </li>
-      <li>
-        <a href="recipes/bakedPotatoes.html">
-          <figure>
+        
+        <a href="recipes/bakedPotatoes.html" 
+        class="recipe-card">
+        <h3>Baked Potatoes</h3>
             <img
               src="./img/bakedPotatoe.jpeg"
               alt="single baked Potato"
-              width="300"
             />
-            <figcaption>Easy Air Fryer Baked Potatoes</figcaption>
-          </figure>
+            <p>Easy Air Fryer Baked Potatoes</p>
         </a>
-      </li>
-      <li>
-        <a href="recipes/potatoWedges.html">
-          <figure>
+        <a href="recipes/potatoWedges.html"
+         class="recipe-card">
+          <h3>Potato Wedges</h3>
             <img
               src="./img/potatoWedges.jpg"
               alt="single baked Potato"
-              width="300"
             />
-            <figcaption>Air Fryer Potato Wedges</figcaption>
-          </figure>
+            <p>Air Fryer Potato Wedges</p>
         </a>
-      </li>
-    </ul>
+  </main>
   </body>
+  <footer>
+    © Made by <strong>André</strong>
+    for <a href="https://www.theodinproject.com/paths/foundations/courses/foundations">The Odin Project/Foundations</a>
+  </footer>
 </html>
